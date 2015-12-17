@@ -26,10 +26,6 @@ int main(int argc, char *argv[])
 	int alloclen = 128;
 	char *pathbuf;
 
-	static const struct option longopts[] = {
-		{"version", no_argument, 0, 'V'},
-		{"help", no_argument, 0, 'h'},
-		{NULL, 0, 0, 0}
 	};
 
 
@@ -37,10 +33,6 @@ int main(int argc, char *argv[])
 	argc -= optind;
 	argv += optind;
 
-	if (argc == 0)
-		usage(stderr);
-
-	pathbuf = malloc(alloclen);
 
 	for (i = 0; i < argc; i++) {
 		char *s;
