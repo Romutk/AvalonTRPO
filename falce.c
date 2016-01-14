@@ -1,4 +1,4 @@
 	main (void)
 {
-	retutn 1;
+	 return 1;
 }
