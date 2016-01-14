@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AM_INIT ([myutils], 0.1,)
+AC_INIT(myutils, 0.1,)
 AM_INIT_AUTOMAKE
 AC_PROG_CC
 AC_CONFIG_FILES(Makefile)
